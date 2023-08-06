@@ -1,0 +1,402 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-color: f1fbff;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-nav a {
+    font-size: 13px;
+    font-weight: 600;
+    color: #c6c6c6;
+    line-height: 12px;
+
+}
+
+.navbar-nav a:hover {
+    color: #fff;
+}
+
+.btn {
+    border-radius: 0%;
+    font-size: 13px;
+    color: #fff;
+    background-color: #29af8a;
+    border: none;
+    padding: 13px 14px;
+    font-weight: bold;
+    transition: all 0.5s ease 0s;
+    line-height: 10px;
+    position: absolute;
+    top: 32px;
+}
+
+.btn:hover {
+    background-color: #666;
+}
+
+.section-head {
+    display: flex;
+}
+
+.card {
+    background-color: rgba(41, 175, 138);
+    padding: 1px 42px 32px;
+    color: #fff;
+    border-radius: 0%;
+}
+
+.card-title {
+    font-size: 100px;
+    line-height: 110px;
+    margin-bottom: 0px;
+    margin-top: 23px;
+}
+
+.card-subtitle {
+    margin-top: 15px;
+    margin-bottom: 39px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 1.8px;
+    color: #eef2f6;
+}
+
+.card-link {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #fff;
+    margin-left: 9rem;
+    transition: all 0.5s ease 0s;
+}
+
+.card-link:hover {
+    color: #29af8a;
+    border-bottom: 1px solid #29af8a;
+}
+
+.card-text {
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.container-1 {
+    margin-top: -200px;
+    margin-left: 120px;
+}
+
+.task-header {
+    color: #435061;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.task-number {
+    color: #435061;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.task-text {
+    font-size: 16px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    line-height: 27px;
+}
+
+.text-left {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    text-align: justify;
+}
+
+.text-head {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.text-right {
+    margin-left: 20px;
+}
+
+.text-child {
+    font-size: 14px;
+    color: #666666;
+
+}
+
+
+
+
+.card1 {
+    margin: 1rem;
+
+    margin-top: 12rem;
+}
+
+.day-time {
+    position: absolute;
+    left: 10px;
+    text-align: center;
+    background-color: #29af8a;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    text-transform: uppercase;
+
+
+}
+
+
+.card_span {
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.card1 a {
+    color: gray;
+    font-weight: bold;
+}
+
+.card1 a:hover {
+    color: #29af8a;
+}
+
+.box {
+    background-color: #f5f7f5;
+    padding: 2rem;
+    border-left: 10px solid blue;
+    margin-bottom: 6rem;
+    color: #29af8a;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+
+
+}
+
+.footer-about {
+    font-size: 18px;
+    margin: 12px 0 48px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.footer-about-text {
+    color: #666666;
+    text-align: justify;
+    padding: 12px 0px 20px;
+    border-bottom: 1px solid #474747;
+}
+
+.recent-event {
+    font-size: 18px;
+    margin: 12px 0 48px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.recent-news {
+    font-size: 18px;
+    margin: 12px 0 48px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.recent-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #637285;
+    transition: all 0.3s ease 0s;
+}
+
+.event-images {
+    height: auto;
+    transition: all 0.4s ease 0s;
+}
+
+.event-images:hover {
+    opacity: 75%;
+}
+
+.recent-text:hover {
+    cursor: pointer;
+    color: #29af8a;
+}
+
+.news-li {
+    padding: 9px 0px;
+    border-bottom: 1px solid #474747;
+    position: relative;
+}
+
+.news-li-a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #666;
+    transition: all 0.3s ease 0s;
+}
+
+.news-li-a:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.cards-title {
+    font-size: 16px;
+    color: #435061;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.card-head {
+    background-color: #f7f7f7;
+    border-left: 1px solid #d7d7d7;
+    border-left: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    padding: 0;
+    margin: 0;
+    /* padding: 27px 30px 26px; */
+}
+
+.card-text {
+    color: #666;
+    display: block;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+}
+
+.learn-text {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    line-height: 30px;
+    border-bottom: 1px solid #435061;
+    color: #2e2e2e;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in;
+}
+
+.learn-text:hover {
+    border-bottom: 1px solid #29af8a;
+}
+
+.card-heading {
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #fff;
+}
+
+.copy-text {
+    background-color: #252525;
+}
+
+.footer-left-text {
+    font-size: 12px;
+    line-height: 68px;
+    letter-spacing: 0.25px;
+    color: #999;
+    margin-left: 7rem;
+}
+
+.footer-right-text {
+    line-height: 68px;
+    font-size: 12px;
+    color: #999;
+    letter-spacing: 0.25px;
+    margin-right: 7rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-caption {
+        text-align: center;
+    }
+
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6px;
+        font-size: 12px;
+    }
+
+    .container-1 {
+        margin-left: 0;
+    }
+}

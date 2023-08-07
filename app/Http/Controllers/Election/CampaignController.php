@@ -28,14 +28,12 @@ class CampaignController extends Controller
      */
     public function index()
     {
-        $campaigns = Campaign::query()->with(['members.leadership', 'members.votes' => function ($query) {
-            $query->select('campaign_member_id', DB::raw('COUNT(*) as vote_count'))
-                ->groupBy('campaign_member_id')
-                ->orderByDesc('vote_count')
-                ->limit(1);
+        $campaigns = Campaign::query()->with(['members.leadership', 'members' => function ($query) {
+            $query->withCount('votes')->orderBy('votes_count', 'desc')->limit(1);
         }])
             ->withCount('votes')
             ->paginate(10);
+
         return view('election.campaign.index', ['campaigns' => $campaigns]);
     }
 

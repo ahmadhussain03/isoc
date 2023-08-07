@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\WelcomeController::class, 'index'])->name('welcome');
 Route::get('/upcoming-events', [App\Http\Controllers\WelcomeController::class, 'upcoming'])->name('upcoming.events');
+Route::get('/past-events', [App\Http\Controllers\WelcomeController::class, 'past'])->name('past.events');
 Route::get('/leadership', [App\Http\Controllers\WelcomeController::class, 'leadership'])->name('leadership');
 Route::get('/bod', [App\Http\Controllers\WelcomeController::class, 'bod'])->name('bod');
 
